@@ -1,0 +1,40 @@
+
+h1 {color: brown;}
+ /**{border: solid;}*/
+
+.header{
+    background-color:rgb(224, 178, 222);
+    justify-content:center;
+    display:flex;
+}
+
+.grid{
+    justify-content:space-evenly;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.footer{
+    background-color: purple;
+    display:flex;
+    justify-content:center;
+}
+
+.description{
+    display:flex;
+}
+
+p,h2{
+    text-align:center;
+    flex-direction:column;
+    justify-content:center;
+}
+
+body{
+    background-color:#e2a6b3;
+    margin:30pt;
+    font-style:normal;
+    border:solid;
+    border-color:rgb(230, 83, 169);
+    border-width: 10pt;
+}
